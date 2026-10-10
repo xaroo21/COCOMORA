@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>COCOMORA | Menú</title>
+
+    <meta
+        name="description"
+        content="Descubre el menú de COCOMORA: desayunos, paninis, café, postres y frappés."
+    >
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="#" class="logo">COCOMORA</a>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <p class="etiqueta">UN MOMENTO PARA DISFRUTAR</p>
+
+                <h1>Tu antojo favorito, <span>en un solo lugar.</span></h1>
+
+                <p>
+                    Disfruta nuestros desayunos, paninis, café, postres
+                    y frappés preparados para acompañar tus mejores momentos.
+                </p>
+
+                <a href="#menu" class="boton">Explorar menú</a>
+            </div>
+
+            <div class="hero-decoracion" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <section class="menu-seccion" id="menu">
+            <div class="titulo-seccion">
+                <p class="etiqueta">HECHO PARA TI</p>
+                <h2>Nuestro menú</h2>
+                <p>Encuentra algo delicioso para cada momento.</p>
+            </div>
+
+            <div
+                class="categorias"
+                id="categorias"
+                aria-label="Filtrar productos por categoría"
+            ></div>
+
+            <div class="productos" id="productos"></div>
+        </section>
+
+        <section class="pedido-info" id="contacto">
+            <div>
+                <p class="etiqueta">¡TE ESPERAMOS!</p>
+                <h2>¿Ya sabes qué se te antoja?</h2>
+                <p>
+                    Escríbenos por WhatsApp para consultar precios,
+                    hacer tu pedido y elegir consumo en el local o recogida.
+                </p>
+            </div>
+
+            <a
+                class="boton boton-secundario"
+                href="https://wa.me/522219751636"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Contactar por WhatsApp
+            </a>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <a href="#inicio" class="logo">Cocomora</a>
+        <p>Un sabor especial en cada momento. ♡</p>
+        <p>© <span id="anio"></span> Cocomora </p>
+    </footer>
+</body>
+</html>
